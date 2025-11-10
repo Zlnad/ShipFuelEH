@@ -41,7 +41,7 @@ def predict_fuel_efficiency():
     #     learning_rate=0.1,
     #     random_state=42
     # )
-    #网格搜索调参
+    #手动网格搜索调参
     model = xgb.XGBRegressor(
         n_estimators=500,
         max_depth=6,
