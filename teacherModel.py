@@ -50,6 +50,7 @@ def set_random_seed(seed: int = DEFAULT_RANDOM_SEED) -> None:
 # ===========================
 # 全局数据配置
 # ===========================
+# 数据源路径
 DATA_FILE_PATH = "data/mingxi_0618_0715_with_anomaly.csv"
 TARGET_COLUMN = "MESFOC_nmile"
 CANDIDATE_FEATURES = [
